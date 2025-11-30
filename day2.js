@@ -2,9 +2,9 @@ let input = require("prompt-sync")();
 
 let feedbackComments = [];
 let satisfactionRatings = [];
-
+//flag
 let continueProgram = "yes";
-
+//start program
 while (continueProgram == "yes") {
   let feedback = input("Enter your comment:");
   feedbackComments.push(feedback);
